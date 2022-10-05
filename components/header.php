@@ -11,5 +11,10 @@
 </head>
 <body class="">
 	<header class="header">
-		<div class="container">Логотип</div>
+		<div class="container">
+			<div class="header__inner">
+				<a class="header__logo" href="index.php">Логотип</a>
+				<a class="header__login" href="#">Войти</a>
+			</div>
+		</div>
 	</header>

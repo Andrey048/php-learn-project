@@ -1,5 +1,5 @@
 <?php
-$fd = fopen('logging/log-bd.txt', 'a');
+$fd = fopen(dirname(__FILE__) . '/log-bd.txt', 'a');
 
 $dateArray = getdate();
 $time = $dateArray['hours'] . ':' . $dateArray['minutes']; 

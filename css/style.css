@@ -1,3 +1,4 @@
+/*Общие стили*/
 body {
 	font-family: sans-serif;
 }
@@ -14,12 +15,30 @@ body main {
 	flex: 1 1 auto;
 }
 
+
+
+/*Стили шапки и подвала*/
 .header, .footer {
 	padding: 10px 0;
 
 	background-color: silver;
 }
+.header__inner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.header__logo {
+	color: #111111;
+}
+.header__login {
+	margin-left: auto;
 
+	color: #111111;
+}
+
+
+
+/*Стили главной страницы*/
 .main-page {
 	padding: 50px 0;
 }
@@ -28,13 +47,54 @@ body main {
 
 	font-size: 35px;
 }
-.main-page__article {
+.main-page__articles {
+
+}
+.main-page__article:not(:last-child) {
 	margin-bottom: 10px;
 }
 .main-page__article a {
 	color: #111111;
 }
+.main-page-form {
 
+}
+
+.blog-main-page {
+	margin-bottom: 40px;
+}
+
+.form-main-page {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	width: 280px;
+}
+.form-main-page__title {
+	width: 100%;
+	margin-bottom: 20px;
+
+	text-align: center;
+}
+.form-main-page__field, .form-main-page__button {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #111111;
+	border-radius: 5px;
+}
+.form-main-page__field {
+	margin-bottom: 10px;
+
+	text-align: center;
+}
+.form-main-page__button {
+
+}
+
+
+
+/*Стили страницы со статьёй*/
 .article-page {
 	padding: 50px 0;
 }
