@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+}
+.container {
+	max-width: 1175px;
+	margin: 0 auto;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+body main {
+	flex: 1 1 auto;
+}
+
+.header, .footer {
+	padding: 10px 0;
+
+	background-color: silver;
+}
+
+.main-page {
+	padding: 50px 0;
+}
+.main-page__title {
+	margin-bottom: 20px;
+
+	font-size: 35px;
+}
+.main-page__article {
+	margin-bottom: 10px;
+}
+.main-page__article a {
+	color: #111111;
+}
+
+.article-page {
+	padding: 50px 0;
+}
+.article-page__title {
+	margin-bottom: 20px;
+
+	font-size: 25px;
+}
